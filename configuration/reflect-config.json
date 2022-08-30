@@ -1,0 +1,2156 @@
+[
+{
+  "name":"[B"
+},
+{
+  "name":"[C"
+},
+{
+  "name":"[D"
+},
+{
+  "name":"[F"
+},
+{
+  "name":"[I"
+},
+{
+  "name":"[J"
+},
+{
+  "name":"[Lcom.mojang.datafixers.types.templates.TypeTemplate;"
+},
+{
+  "name":"[Ldle;"
+},
+{
+  "name":"[Ldlu;"
+},
+{
+  "name":"[Ldmn;"
+},
+{
+  "name":"[Ldnv;"
+},
+{
+  "name":"[Ljava.lang.Object;"
+},
+{
+  "name":"[Ljava.lang.String;"
+},
+{
+  "name":"[Ljavax.management.openmbean.CompositeData;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.Appender;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.Filter;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.appender.rolling.TriggeringPolicy;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.config.AppenderRef;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.config.LoggerConfig;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.config.Property;"
+},
+{
+  "name":"[S"
+},
+{
+  "name":"[Z"
+},
+{
+  "name":"[[[Ljava.util.function.Predicate;"
+},
+{
+  "name":"ael",
+  "queriedMethods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"aen$1"
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture",
+  "fields":[
+    {"name":"listeners"}, 
+    {"name":"value"}, 
+    {"name":"waiters"}
+  ]
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture$Waiter",
+  "fields":[
+    {"name":"next"}, 
+    {"name":"thread"}
+  ]
+},
+{
+  "name":"com.google.gson.stream.JsonReader",
+  "fields":[
+    {"name":"lineStart"}, 
+    {"name":"pos"}
+  ]
+},
+{
+  "name":"com.mojang.authlib.yggdrasil.response.HasJoinedMinecraftServerResponse",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.mojang.authlib.yggdrasil.response.Response",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.mojang.logging.plugins.LegacyXMLLayout"
+},
+{
+  "name":"com.mojang.logging.plugins.QueueLogAppender",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createAppender","parameterTypes":["java.lang.String","java.lang.String","org.apache.logging.log4j.core.Layout","org.apache.logging.log4j.core.Filter","java.lang.String"] }]
+},
+{
+  "name":"com.sun.crypto.provider.AESCipher$General",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.ARCFOURCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.ChaCha20Cipher$ChaCha20Poly1305",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DESCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DESedeCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DHParameters",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.GaloisCounterMode$AESGCM",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.HmacCore$HmacSHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.RSACipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.TlsMasterSecretGenerator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.management.GarbageCollectorMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.GcInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.HotSpotDiagnosticMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.ThreadMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.UnixOperatingSystemMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.VMOption",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.sun.management.internal.GarbageCollectorExtImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.sun.management.internal.HotSpotDiagnostic",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.sun.management.internal.HotSpotThreadImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.sun.management.internal.OperatingSystemImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.bootstrap.ServerBootstrap$1"
+},
+{
+  "name":"io.netty.bootstrap.ServerBootstrap$ServerBootstrapAcceptor",
+  "queriedMethods":[
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }
+  ]
+},
+{
+  "name":"io.netty.buffer.AbstractByteBufAllocator",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.buffer.AbstractReferenceCountedByteBuf",
+  "fields":[{"name":"refCnt"}]
+},
+{
+  "name":"io.netty.channel.ChannelDuplexHandler",
+  "queriedMethods":[
+    {"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }
+  ]
+},
+{
+  "name":"io.netty.channel.ChannelHandlerAdapter",
+  "queriedMethods":[{"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"io.netty.channel.ChannelInboundHandlerAdapter",
+  "queriedMethods":[
+    {"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }
+  ]
+},
+{
+  "name":"io.netty.channel.ChannelInitializer",
+  "queriedMethods":[
+    {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }
+  ]
+},
+{
+  "name":"io.netty.channel.ChannelOutboundHandlerAdapter",
+  "queriedMethods":[
+    {"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }
+  ]
+},
+{
+  "name":"io.netty.channel.DefaultChannelPipeline$HeadContext",
+  "queriedMethods":[
+    {"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }
+  ]
+},
+{
+  "name":"io.netty.channel.DefaultChannelPipeline$TailContext",
+  "queriedMethods":[
+    {"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }
+  ]
+},
+{
+  "name":"io.netty.channel.DefaultFileRegion"
+},
+{
+  "name":"io.netty.channel.SimpleChannelInboundHandler",
+  "queriedMethods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"io.netty.channel.epoll.EpollServerSocketChannel",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.channel.epoll.NativeDatagramPacketArray$NativeDatagramPacket"
+},
+{
+  "name":"io.netty.channel.unix.DatagramSocketAddress"
+},
+{
+  "name":"io.netty.channel.unix.DomainDatagramSocketAddress"
+},
+{
+  "name":"io.netty.channel.unix.PeerCredentials"
+},
+{
+  "name":"io.netty.handler.codec.ByteToMessageDecoder",
+  "queriedMethods":[
+    {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }
+  ]
+},
+{
+  "name":"io.netty.handler.codec.MessageToByteEncoder",
+  "queriedMethods":[{"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"io.netty.handler.codec.MessageToMessageDecoder",
+  "queriedMethods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"io.netty.handler.timeout.IdleStateHandler",
+  "queriedMethods":[
+    {"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }
+  ]
+},
+{
+  "name":"io.netty.handler.timeout.ReadTimeoutHandler"
+},
+{
+  "name":"io.netty.util.AbstractReferenceCounted",
+  "fields":[{"name":"refCnt"}]
+},
+{
+  "name":"io.netty.util.ReferenceCountUtil",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.util.internal.NativeLibraryUtil",
+  "methods":[{"name":"loadLibrary","parameterTypes":["java.lang.String","boolean"] }]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"java.io.FileDescriptor"
+},
+{
+  "name":"java.io.IOException"
+},
+{
+  "name":"java.io.ObjectInputStream",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.Boolean",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Byte",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Character",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Deprecated",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.Double",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Float",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Integer",
+  "fields":[{"name":"TYPE"}],
+  "queriedMethods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Long",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true
+},
+{
+  "name":"java.lang.OutOfMemoryError"
+},
+{
+  "name":"java.lang.RuntimeException"
+},
+{
+  "name":"java.lang.Short",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.StackTraceElement",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.String"
+},
+{
+  "name":"java.lang.Throwable",
+  "queriedMethods":[{"name":"addSuppressed","parameterTypes":["java.lang.Throwable"] }]
+},
+{
+  "name":"java.lang.Void",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.management.BufferPoolMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.ClassLoadingMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.CompilationMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.LockInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.ManagementPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.management.MemoryMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.MemoryManagerMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.MemoryPoolMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.MemoryUsage",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.MonitorInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.PlatformLoggingMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"getInputArguments","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getStartTime","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.management.ThreadInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.math.BigDecimal"
+},
+{
+  "name":"java.math.BigInteger"
+},
+{
+  "name":"java.net.InetSocketAddress"
+},
+{
+  "name":"java.net.PortUnreachableException"
+},
+{
+  "name":"java.nio.Bits",
+  "fields":[{"name":"UNALIGNED"}]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.ByteBuffer",
+  "queriedMethods":[{"name":"alignedSlice","parameterTypes":["int"] }]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "queriedMethods":[{"name":"<init>","parameterTypes":["long","int"] }]
+},
+{
+  "name":"java.nio.channels.ClosedChannelException"
+},
+{
+  "name":"java.nio.channels.FileChannel"
+},
+{
+  "name":"java.security.AlgorithmParametersSpi"
+},
+{
+  "name":"java.security.KeyStoreSpi"
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.security.interfaces.RSAPrivateKey"
+},
+{
+  "name":"java.security.interfaces.RSAPublicKey"
+},
+{
+  "name":"java.sql.Date"
+},
+{
+  "name":"java.util.BitSet",
+  "methods":[{"name":"clone","parameterTypes":[] }]
+},
+{
+  "name":"java.util.Date"
+},
+{
+  "name":"java.util.HashMap",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.util.PropertyPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"java.util.logging.LogManager",
+  "methods":[{"name":"getLoggingMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.util.logging.LoggingMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"javax.management.MBeanOperationInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"javax.management.MBeanServerBuilder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javax.management.NotificationBroadcasterSupport",
+  "queriedMethods":[{"name":"getNotificationInfo","parameterTypes":[] }]
+},
+{
+  "name":"javax.management.ObjectName"
+},
+{
+  "name":"javax.management.openmbean.CompositeData"
+},
+{
+  "name":"javax.management.openmbean.OpenMBeanOperationInfoSupport"
+},
+{
+  "name":"javax.management.openmbean.TabularData"
+},
+{
+  "name":"javax.security.auth.x500.X500Principal",
+  "methods":[{"name":"<init>","parameterTypes":["sun.security.x509.X500Name"] }]
+},
+{
+  "name":"jdk.internal.misc.Unsafe",
+  "methods":[{"name":"getUnsafe","parameterTypes":[] }]
+},
+{
+  "name":"jdk.management.jfr.ConfigurationInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.EventTypeInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.FlightRecorderMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.FlightRecorderMXBeanImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"jdk.management.jfr.RecordingInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.SettingDescriptorInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"joptsimple.OptionException"
+},
+{
+  "name":"joptsimple.OptionParser"
+},
+{
+  "name":"joptsimple.OptionParserState$2"
+},
+{
+  "name":"net.minecraft.server.Main",
+  "methods":[{"name":"main","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"net.minecraft.util.profiling.jfr.event.ChunkGenerationEvent",
+  "allDeclaredFields":true
+},
+{
+  "name":"net.minecraft.util.profiling.jfr.event.NetworkSummaryEvent",
+  "allDeclaredFields":true
+},
+{
+  "name":"net.minecraft.util.profiling.jfr.event.PacketReceivedEvent",
+  "allDeclaredFields":true
+},
+{
+  "name":"net.minecraft.util.profiling.jfr.event.PacketSentEvent",
+  "allDeclaredFields":true
+},
+{
+  "name":"net.minecraft.util.profiling.jfr.event.ServerTickTimeEvent",
+  "allDeclaredFields":true
+},
+{
+  "name":"net.minecraft.util.profiling.jfr.event.WorldLoadFinishedEvent",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.AbstractAppender$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.AppenderSet"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.AsyncAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.CountingNoOpAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.FailoverAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.FailoversPlugin"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.FileAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.HttpAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.MemoryMappedFileAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.NullAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.OutputStreamAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.RandomAccessFileAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.RollingFileAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.ScriptAppenderSelector"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.SmtpAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.SocketAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.SyslogAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.WriterAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.ColumnMapping"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.DataSourceConnectionSource"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.DriverManagerConnectionSource"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.JdbcAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.mom.JmsAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.mom.jeromq.JeroMqAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.mom.kafka.KafkaAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.nosql.NoSqlAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.LoggerNameLevelRewritePolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.MapRewritePolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.PropertiesRewritePolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.RewriteAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createPolicy","parameterTypes":["org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.CronTriggeringPolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.DirectWriteRolloverStrategy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.NoOpTriggeringPolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.OnStartupTriggeringPolicy",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createPolicy","parameterTypes":["long"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.DeleteAction"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileCount"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileSize"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAll"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAny"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfFileName"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfLastModified"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfNot"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.PathSortByModificationTime"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.PosixViewAttributeAction"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.ScriptCondition"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.IdlePurgePolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.Route"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.Routes"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.RoutingAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.ArrayBlockingQueueFactory"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.AsyncLoggerConfig"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.AsyncLoggerConfig$RootLogger"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.DisruptorBlockingQueueFactory"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.JCToolsBlockingQueueFactory"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.LinkedTransferQueueFactory"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.AppenderRef",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createAppenderRef","parameterTypes":["java.lang.String","org.apache.logging.log4j.Level","org.apache.logging.log4j.core.Filter"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.AppendersPlugin",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createAppenders","parameterTypes":["org.apache.logging.log4j.core.Appender[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.CustomLevelConfig"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.CustomLevels"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.DefaultAdvertiser"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.HttpWatcher"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig$RootLogger",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createLogger","parameterTypes":["java.lang.String","org.apache.logging.log4j.Level","java.lang.String","org.apache.logging.log4j.core.config.AppenderRef[]","org.apache.logging.log4j.core.config.Property[]","org.apache.logging.log4j.core.config.Configuration","org.apache.logging.log4j.core.Filter"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggersPlugin",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createLoggers","parameterTypes":["org.apache.logging.log4j.core.config.LoggerConfig[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.PropertiesPlugin"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.Property"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.ScriptsPlugin"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.ClassArbiter"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.DefaultArbiter"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.ScriptArbiter"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.SelectArbiter"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.SystemPropertyArbiter"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.json.JsonConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigDecimalConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigIntegerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BooleanConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteArrayConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharArrayConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharacterConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharsetConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ClassConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CronExpressionConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$DoubleConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$DurationConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FileConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FloatConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$InetAddressConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$IntegerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LevelConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LongConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$PathConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$PatternConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$SecurityProviderConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ShortConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$StringConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UriConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UrlConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UuidConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.validation.validators.RequiredValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginAttributeVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginBuilderAttributeVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginConfigurationVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginElementVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.properties.PropertiesConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.xml.XmlConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.yaml.YamlConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.AbstractFilterable$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.BurstFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.CompositeFilter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createFilters","parameterTypes":["org.apache.logging.log4j.core.Filter[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.DenyAllFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.DynamicThresholdFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.LevelMatchFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.LevelRangeFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.MapFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.MarkerFilter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createFilter","parameterTypes":["java.lang.String","org.apache.logging.log4j.core.Filter$Result","org.apache.logging.log4j.core.Filter$Result"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.NoMarkerFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.RegexFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.ScriptFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.StringMatchFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.StructuredDataFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.ThreadContextMapFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.ThresholdFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.TimeFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.impl.Log4jContextFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.jmx.AppenderAdmin",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"org.apache.logging.log4j.core.jmx.AppenderAdminMBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.jmx.ContextSelectorAdmin",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"org.apache.logging.log4j.core.jmx.ContextSelectorAdminMBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.jmx.LoggerConfigAdmin",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"org.apache.logging.log4j.core.jmx.LoggerConfigAdminMBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.jmx.LoggerContextAdmin",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"org.apache.logging.log4j.core.jmx.LoggerContextAdminMBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.jmx.StatusLoggerAdmin",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"org.apache.logging.log4j.core.jmx.StatusLoggerAdminMBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.CsvLogEventLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.CsvParameterLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.GelfLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.HtmlLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.JsonLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.LevelPatternSelector"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.LoggerFields"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.MarkerPatternSelector"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.MessageLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternLayout",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternLayout$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternMatch"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.Rfc5424Layout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.ScriptPatternSelector"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.SerializedLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.SyslogLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.XmlLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.YamlLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.ContextMapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.DateLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.EnvironmentLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.EventLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JavaLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JmxRuntimeInputArgumentsLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JndiLookup"
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.Log4jLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.LowerLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MainMapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MarkerLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.ResourceBundleLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.StructuredDataLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.SystemPropertiesLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.UpperLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.net.MulticastDnsAdvertiser"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.SocketAddress"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.SocketOptions"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.SocketPerformancePreferences"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.ssl.KeyStoreConfiguration"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.ssl.SslConfiguration"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.ssl.TrustStoreConfiguration"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Black"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Blue"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Cyan"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Green"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Magenta"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Red"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$White"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Yellow"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ClassNamePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.DatePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.EncodingPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.EndOfBatchPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.EqualsIgnoreCaseReplacementConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.EqualsReplacementConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ExtendedThrowablePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.FileDatePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.FileLocationPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.FullLocationPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.HighlightConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.IntegerPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LevelPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LineLocationPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LineSeparatorPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LoggerFqcnPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LoggerPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MapPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MarkerPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MarkerSimpleNamePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MaxLengthConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MdcPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MessagePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["org.apache.logging.log4j.core.config.Configuration","java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MethodLocationPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.NanoTimePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.NdcPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ProcessIdPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.RegexReplacement"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.RegexReplacementConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.RelativeTimePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.RepeatPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.RootThrowablePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.SequenceNumberPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.StyleConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThreadIdPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThreadNamePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThreadPriorityPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThrowablePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.UuidPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.VariablesNotEmptyReplacementConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.script.Script"
+},
+{
+  "name":"org.apache.logging.log4j.core.script.ScriptFile"
+},
+{
+  "name":"org.apache.logging.log4j.core.script.ScriptRef"
+},
+{
+  "name":"org.apache.logging.log4j.core.util.ExecutorServices"
+},
+{
+  "name":"org.apache.logging.log4j.core.util.KeyValuePair"
+},
+{
+  "name":"org.apache.logging.log4j.message.DefaultFlowMessageFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.message.ReusableMessageFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.util.internal.DefaultObjectInputFilter",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"ps"
+},
+{
+  "name":"pt"
+},
+{
+  "name":"pu"
+},
+{
+  "name":"pv"
+},
+{
+  "name":"pw",
+  "queriedMethods":[
+    {"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }
+  ]
+},
+{
+  "name":"pz"
+},
+{
+  "name":"qa"
+},
+{
+  "name":"qe"
+},
+{
+  "name":"qf"
+},
+{
+  "name":"sun.management.ClassLoadingImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.CompilationImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.ManagementFactoryHelper$1",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.ManagementFactoryHelper$PlatformLoggingImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.MemoryImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.MemoryManagerImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.MemoryPoolImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.management.RuntimeImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.misc.Unsafe",
+  "allDeclaredFields":true,
+  "methods":[{"name":"invokeCleaner","parameterTypes":["java.nio.ByteBuffer"] }],
+  "queriedMethods":[
+    {"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, 
+    {"name":"getAndAddLong","parameterTypes":["java.lang.Object","long","long"] }, 
+    {"name":"getAndSetObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }
+  ]
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.DSA$SHA224withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.DSA$SHA256withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.JavaKeyStore$DualFormatJKS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.JavaKeyStore$JKS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.MD5",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA224",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA5$SHA384",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA5$SHA512",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.X509Factory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.certpath.PKIXCertPathValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.PSSParameters",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAKeyFactory$Legacy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAKeyPairGenerator$Legacy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAPSSSignature",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA224withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA256withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.KeyManagerFactoryImpl$SunX509",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.SSLContextImpl$DefaultSSLContext",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.x509.AuthorityInfoAccessExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.AuthorityKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.BasicConstraintsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CRLDistributionPointsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CertificatePoliciesExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.ExtendedKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.IssuerAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.KeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.NetscapeCertTypeExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.PrivateKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"ctq",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$j",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$n",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$v",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$a",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$l",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$o",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$ab",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$q",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$s",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$t",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$r",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$e",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$g",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$k",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$w",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$x",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$y",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$h",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctp",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$ac",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"com.mojang.datafixers.types.templates.List$ListType",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"com.mojang.datafixers.types.templates.Product$ProductType",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"ctq$h",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bka",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkb",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkc",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkd",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bke",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkf",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkg",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkh",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bki",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkj",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkk",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkm",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkn",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bko",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkp",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkq",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkr",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bks",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkt",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bku",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkv",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkw",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkx",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bky",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+},
+{
+  "name":"bkz",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true,
+  "allPermittedSubclasses":true
+}
+]

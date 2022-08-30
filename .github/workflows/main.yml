@@ -1,0 +1,25 @@
+name: Build Native Minecraft Server
+on: [ push, pull_request ]
+jobs:
+  build:
+    name: Build on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: graalvm/setup-graalvm@v1
+        with:
+          version: '22.2.0'
+          java-version: '17'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check build.sh
+        shell: bash
+        run: shellcheck build.sh
+        if: ${{ matrix.os == 'ubuntu-latest' }}
+      - name: Build and run native Minecraft server
+        shell: bash
+        run: |
+          ./build.sh
+          ./native-minecraft-server --help
